@@ -89,8 +89,13 @@ Para mitigar o Churn, as seguintes ações estratégicas podem ser implementadas
 
 ## 📂 Arquivos
 
+- `Instrucoes_desafio_TelecomX_BR.ipynb`: Instruções do desafio Telecom X.
 - [`TelecomX_Data.json`](https://raw.githubusercontent.com/alura-cursos/challenge2-data-science/refs/heads/main/TelecomX_Data.json): Base de dados utilizada na análise.
 - `TelecomX_BR.ipynb`: Notebook contendo os códigos Python para a análise.
+- `TelecomX_dicionario.md`: Dicionário de dados utilizado na análise.
+- `relatorio_analise_TelecomX.md`: Relatório da análise.
+- [`Código Python do desafio Telecom X`](TelecomX_BR.html): Código em Python para visualização no formato HTML
+- `TelecomX_concatenado.csv`: Dataframe concatenado com todas as bases de dados.
 - Outros gráficos e documentos da análise podem ser adicionados aqui conforme o projeto avança.
 
 ## 🔧 Requisitos
