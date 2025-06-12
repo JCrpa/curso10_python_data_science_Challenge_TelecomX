@@ -1,7 +1,3 @@
-Com certeza! Baseando-me nas informações fornecidas nas fontes e em nossa conversa anterior, preparei um resumo completo para o seu arquivo `README.md` no GitHub.
-
----
-
 ```markdown
 # 📊 Análise de Evasão de Clientes (Churn) - Telecom X
 

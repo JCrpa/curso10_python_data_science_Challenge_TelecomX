@@ -7,48 +7,51 @@ A análise dos gráficos revela padrões importantes relacionados ao comportamen
 - **Distribuição Geral de Churn:**
 
   - Do total de clientes, a maioria **não apresentou Churn (5174 clientes)**, enquanto **1869 clientes indicaram Churn**. Isso estabelece a base para entender a proporção de desistência na base de dados.
-  - ![Gráfico 1](imagens_graficos/image-1.png 'Distribuição Geral de Churn')
+  - ![Gráfico 1](imagens_graficos/2_churn.png 'Distribuição Geral de Churn')
 
 - **Churn por Gênero:**
 
   - A distribuição de Churn entre gêneros é **muito similar**: 939 clientes femininos e 930 clientes masculinos churnaram. Isso sugere que o **gênero não é um fator preponderante para a desistência** dos clientes.
-  - ![Gráfico 2](imagens_graficos/image-3.png 'Churn por Gênero')
+  - ![Gráfico 2](imagens_graficos/3_churn_genero.png 'Churn por Gênero')
 
 - **Churn por Senioridade (Idoso):**
 
   - Embora a quantidade absoluta de clientes idosos seja menor, a **proporção de Churn é visivelmente maior entre eles**. Dos clientes considerados "Idosos" (True), 476 churnaram em comparação com 666 que não churnaram. Comparado aos não idosos, onde 1393 churnaram de um grupo muito maior (4508 não churnaram), o churn é mais concentrado percentualmente nos idosos.
-  - ![Gráfico 3](imagens_graficos/image-4.png 'Churn por Senioridade (Idoso)')
+  - ![Gráfico 3](imagens_graficos/4_churn_senioridade.png 'Churn por Senioridade (Idoso)')
 
 - **Churn por Estado Civil (Parceiro):**
 
   - Clientes **sem parceiro(a) ('No') churnam em número significativamente maior (1200 clientes)** do que clientes com parceiro(a) ('Yes') (669 clientes). Isso pode indicar que ter um parceiro(a) está associado a uma **menor propensão a Churn**.
-  - ![Gráfico 4](imagens_graficos/image-5.png 'Churn por Estado Civil (Parceiro)')
+  - ![Gráfico 4](imagens_graficos/5_churn_estado_civil.png 'Churn por Estado Civil (Parceiro)')
 
 - **Churn por Dependentes:**
 
   - De forma semelhante ao estado civil, clientes **sem dependentes ('No') apresentaram um número consideravelmente maior de Churn (1543 clientes)** em comparação com aqueles que possuem dependentes ('Yes') (326 clientes). Este padrão sugere que a **presença de dependentes também pode estar relacionada a uma menor taxa de desistência**.
-  - ![Gráfico 5](imagens_graficos/image-6.png 'Churn por Dependentes')
+  - ![Gráfico 5](imagens_graficos/6_churn_dependentes.png 'Churn por Dependentes')
 
 - **Churn por Tempo de Contrato (Tenure):**
 
   - O gráfico de Churn por faixas de tempo de contrato (tenure) demonstra claramente que a **maioria dos eventos de Churn ocorre nos primeiros meses de contrato**, especialmente na faixa de **"0-6 meses"**. À medida que o tempo de contrato aumenta, o número de clientes que não churnam supera consistentemente o número de clientes que churnam. Isso indica que os **clientes novos são os mais vulneráveis à desistência**.
-  - ![Gráfico 6](imagens_graficos/image-7.png 'Churn por Tempo de Contrato (Tenurre)')
+  - ![Gráfico 6](imagens_graficos/7_tempo_contrato_tenure.png 'Churn por Tempo de Contrato (Tenurre)')
 
 - **Churn por Tipo de Contrato:**
 
   - A **maioria esmagadora dos casos de Churn (1655 clientes) está associada a contratos "Month-to-month" (mês a mês)**. Contratos de "One year" (um ano) e "Two year" (dois anos) apresentam números de Churn muito menores (166 e 48, respectivamente). Este é um **fator crítico, apontando para contratos de curta duração como um grande impulsionador de Churn**.
-  - ![Gráfico 7](imagens_graficos/image-8.png 'Churn por Tipo de Contrato')
+  - ![Gráfico 7](imagens_graficos/8_tipo_contrato.png 'Churn por Tipo de Contrato')
 
 - **Churn por Forma de Pagamento:**
 
   - A forma de pagamento **"Electronic check" (cheque eletrônico) se destaca com um número expressivamente alto de clientes que churnaram (1071 clientes)**. As outras formas de pagamento (transferência bancária automática, cartão de crédito automático e cheque pelo correio) mostram um número muito menor de Churn em comparação. Isso sugere uma **forte correlação entre o uso de cheque eletrônico e a desistência do cliente**.
+  - ![Gráfico 7](imagens_graficos/9_forma_pagamento.png 'Churn por Forma de Pagamento')
 
 - **Churn por Faixa de Gasto Mensal (Charges.Monthly):**
 
   - Observa-se que a **porcentagem de Churn aumenta significativamente para clientes com gastos mensais mais altos**. As faixas de R$ 70-79, R$ 80-89 e R$ 90-99 apresentam as maiores porcentagens de Churn (39.82%, 36.12% e 37.80%, respectivamente), com a faixa de R$ 70-79 tendo o pico de 364 clientes que churnaram. Isso indica que **clientes que pagam mais mensalmente têm uma maior propensão a churnar**.
+  - ![Gráfico 7](imagens_graficos/10_churn_gasto_mensal.png 'Churn por Forma de Pagamento')
 
 - **Churn por Faixa de Gasto Total (Charges.Total):**
   - Ao contrário dos gastos mensais, a análise do gasto total acumulado mostra que a **maior taxa de Churn (36.99% e 1070 clientes) ocorre na faixa de menores gastos totais (R$ 0-999)**. À medida que o gasto total aumenta, a porcentagem de Churn **diminui drasticamente**, chegando a apenas 3.85% para a faixa de R$ 8000-8999. Isso sugere que **clientes com menor histórico de gastos acumulados são muito mais propensos a Churn**. Esta observação complementa a análise de "Tenure", onde clientes novos (e, portanto, com menor gasto total) são mais propensos a Churn.
+  - ![Gráfico 7](imagens_graficos/11_churn_gasto_total.png 'Churn por Forma de Pagamento')
 
 **Conclusão dos Insights dos Gráficos:**
 
